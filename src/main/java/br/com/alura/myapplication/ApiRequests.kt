@@ -7,5 +7,5 @@ import retrofit2.http.GET
 interface ApiRequests {
 
     @GET("/facts/random")
-    fun getCatFacts():Call<CatJson>
+    fun getCatFacts(): Call<CatJson>
 }
